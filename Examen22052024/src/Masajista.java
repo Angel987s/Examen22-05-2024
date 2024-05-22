@@ -23,4 +23,20 @@ public class Masajista extends Persona {
         nombre = nombre2;
         this.aniosexperencia = aniosexperencia;
     }
+
+
+
+    @Override
+    public void Concentracion(){
+        System.out.println("Se deben de Concentrar el Masajista");
+    }
+
+    @Override
+    public void Viajar(){
+        System.out.println("Deben de Vijar el Masajista");
+    }
+
+    public void darMasaje(){
+        System.out.println("Da Masaje");
+    }
 }

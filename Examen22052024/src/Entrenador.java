@@ -18,4 +18,24 @@ public class Entrenador extends Persona{
         this.idFederacion = idFederacion;
     }
 
+    @Override
+    public void Concentracion(){
+        System.out.println("Se deben de Concentrar el Entrenador");
+    }
+
+    @Override
+    public void Viajar(){
+        System.out.println("Deben de Vijar el Entrenador");
+    }
+    
+    public void dirijirPartido(){
+        System.out.println("Entrenador dirige el partido");
+    }
+
+    public void dirijirEntrenamiento(){
+        System.out.println("Entrenador dirige el entrenamiento");
+    }
+
+    
+
 }

@@ -36,4 +36,13 @@ public class Persona {
         this.edad = edad;
     }
 
+
+    public void Concentracion(){
+        System.out.println("Se deben de Concentrar");
+    }
+
+    public void Viajar(){
+        System.out.println("Deben de Vijar");
+    }
+
 }
